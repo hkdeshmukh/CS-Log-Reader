@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: org.hsqldb.jdbc.JDBCDriver
+    url: jdbc:hsqldb:mem:cs-logs;DB_CLOSE_DELAY=-1
+    username: sa
+    password:
+    jpa.hibernate.ddl-auto: create
+  application:
+    name: CS-LogReader
